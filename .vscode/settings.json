@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "gpio_interface.h": "c",
+        "usart_interface.h": "c",
+        "stk_interface.h": "c",
+        "ota_interface.h": "c",
+        "fpec_private.h": "c",
+        "rcc_interface.h": "c",
+        "std_types.h": "c",
+        "nvic_interface.h": "c"
+    }
+}
