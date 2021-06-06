@@ -46,7 +46,11 @@ C, C++, HTML, CSS, JavaScript.
 ## ‣ Links
 - The source code of all project can be found on this [GitHub Organization](httpsgithub.comota-programmer).
 - The website for uploading the ```.hex``` file can be found on this [link](httpsota-programmer.github.io).
-- A video illustrating the project can be found on this [link](httpsota-programmer.github.io).
+
+## ‣ Video:
+A video illustrating the project can be found on this link.
+[![Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
 
 ## ‣ Developer
 This project is developed by [Ahmed Hassan](httpsahmed-hassan-cv.github.io).
