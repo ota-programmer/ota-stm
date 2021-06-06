@@ -3,7 +3,7 @@ Over-the-air programming (OTA programming) refers to various methods of distribu
 This project is implemented to program BlueBill Board (STM32 Micro-controller) over the air using a website connected to a cloud database (Firebase) and NodeMCU board to get the code from internet for sending it to STM.
 
 ## ‣ Circuit Diagram
-![Circuit Diagram](httpsota-programmer.github.io/diagram.jpg)
+![Circuit Diagram](https://github.com/ota-programmer.github.io/diagram.jpg)
 
 
 ## ‣ The project is divided into three mini-projects
