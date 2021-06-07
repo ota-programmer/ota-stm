@@ -13,9 +13,9 @@ The website is responsible for letting the user upload a ```.hex``` file to a cl
 The website only allows ```.hex``` to be uploaded, it also have some ```.hex``` file examples to let the user test the project.
 Examples are
 - ```.hex``` file to only erase the application area in Flash memory.
-- ```.hex``` file to blink the led connected to pin A0 every 0.5 second.
-- ```.hex``` file to left-shift two leeds connected to pin A0, A1 every 0.5 second.
-- ```.hex``` file to right-shift two leeds connected to pin A0, A1 every 0.5 second.
+- ```.hex``` file to blink the leds connected to pin A0,A1,A2 every 0.5 second.
+- ```.hex``` file to left-shift two leeds connected to pin A0,A1,A2 every 0.5 second.
+- ```.hex``` file to right-shift two leeds connected to pin A0,A1,A2 every 0.5 second.
 
 The website also allows the user to vheck if NodeMCU is connected to Internet.
 ### 2. NodeMCU
