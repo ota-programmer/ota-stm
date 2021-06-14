@@ -47,7 +47,7 @@ C, C++, HTML, CSS, JavaScript.
 - The website for uploading the ```.hex``` file can be found on this [link](https://ota-programmer.github.io).
 
 ## ‣ Video:
-A video illustrating the project can be found on this link.
+A video illustrating the project can be found on this youtube video.
 
 [![Video](https://securityweekly.com/wp-content/uploads/2021/03/youtube-logo2-1.jpeg)](https://www.youtube.com/watch?v=N_zM7etQvOw)
 
