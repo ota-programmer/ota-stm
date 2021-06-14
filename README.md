@@ -49,7 +49,7 @@ C, C++, HTML, CSS, JavaScript.
 ## ‣ Video:
 A video illustrating the project can be found on this link.
 
-[![Video](https://img.youtube.com/vi/N_zM7etQvOw/maxresdefault.jpg)](https://www.youtube.com/watch?v=N_zM7etQvOw)
+[![Video](https://securityweekly.com/wp-content/uploads/2021/03/youtube-logo2-1.jpeg)](https://www.youtube.com/watch?v=N_zM7etQvOw)
 
 ## ‣ Developer
 This project is developed by [Ahmed Hassan](https://ahmed-hassann.github.io/).
