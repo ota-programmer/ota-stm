@@ -25,7 +25,7 @@ NodeMCU code has a ```config.h``` file to let the user choose the following
 - The timeout interval of trying to connect to Wi-Fi.
 
 ### 3. STM
-On reset, STM waits for 5 seconds if there is any code received from NodeMCU. If any, it will first erase the application area and then flash the code received. Once it finished, it will run the application code.
+On reset, STM Bootloader waits for 5 seconds if there is any code received from NodeMCU. If any, it will first erase the application area and then flash the code received. Once it finished, it will run the application code.
 If no code received from NodeMCU for 5 seconds, it will jump to latest flashed application code.
 
 ## ‣ Future Improvements
