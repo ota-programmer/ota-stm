@@ -29,7 +29,9 @@ void USART1_vidEnableRecieveInterrupt(void (*copy_ptr)(u8 x))
     USART1_recieveCallback = copy_ptr;
     SET_BIT((USART1->CR1), 5); /* Enable Interrupt */
 }
-
+void USART1_vidDisableRecieveInterrupt (void) {
+    CLR_BIT((USART1->CR1), 5); /* Disable Interrupt */
+}
 void USART1_vidTransmit(u8 data)
 {
     USART1->DR = data;

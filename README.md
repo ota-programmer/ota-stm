@@ -1,7 +1,6 @@
 # Over-The-Air Programmer (OTA Programmer)
 Over-the-air programming (OTA programming) refers to various methods of distributing new software, configuration settings, and even updating encryption keys to devices like mobile phones, set-top boxes, electric cars.
-This project is implemented to program BlueBill Board (STM32 Micro-controller) over the air using a website connected to a cloud database (Firebase) and NodeMCU board to get the code from internet for sending it to STM.
-
+This project is implemented to program BlueBill Board (STM32 Micro-controller) over the air using a website connected to a cloud database (Firebase) and NodeMCU board to get the code from internet for sending it to STM to write it to the Flash Memory using the Bootloader flashed on the first 8 kB of Flash Memory.
 ## ‣ Circuit Diagram
 ![Circuit Diagram](https://ota-programmer.github.io/diagram.jpg)
 

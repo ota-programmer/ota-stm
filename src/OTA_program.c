@@ -1,4 +1,3 @@
-
 #include "STD_TYPES.h"
 #include "BIT_MATH.h"
 
@@ -30,9 +29,9 @@ void OTA_vidInit(void)
 {
 
     RCC_vidInitSysClock();          /* Init System Clock       */
-    FPEC_vidEnableClock();          /* Init Flash Driver Clock */
-    USART1_vidEnableClock();        /* Init UART Clock         */
-    GPIO_vidEnablePortClock(GPIOA); /* Init PORTA Clock for UART pins (Rx, Tx) */
+    FPEC_vidEnableClock();          /* Enable Flash Driver Clock */
+    USART1_vidEnableClock();        /* Enable UART Clock         */
+    GPIO_vidEnablePortClock(GPIOA); /* Enable PORTA Clock for UART pins (Rx, Tx) */
 
     USART1_vidInit(); /* Init USART1  */
     STK_vidInit();    /* Init SysTick */
@@ -75,7 +74,8 @@ void OTA_vidRun(void)
             g_lineReceivedFlag = FALSE;
         }
     }
-    runAppCode();
+    USART1_vidDisableRecieveInterrupt();
+    OTA_vidRunAppCode();
 }
 
 static void OTA_vidRunAppCode(void)
@@ -176,11 +176,11 @@ static void OTA_vidParseRecord()
             dataDigits[0] = getHex(g_recieveBuffer[4 * (CC / 2) + 9]);
             dataDigits[1] = getHex(g_recieveBuffer[4 * (CC / 2) + 10]);
             g_data[dataCounter] = 0xFF00 | (dataDigits[0] << 4) | (dataDigits[1] << 0);
-            FPEC_voidFlashWrite(g_address, g_data, CC / 2 + 1);
+            FPEC_voidFlashWrite(g_address, (u16 *)g_data, CC / 2 + 1);
         }
         else
         {
-            FPEC_voidFlashWrite(g_address, g_data, CC / 2);
+            FPEC_voidFlashWrite(g_address, (u16 *)g_data, CC / 2);
         }
 
         break;
