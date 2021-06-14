@@ -49,7 +49,7 @@ C, C++, HTML, CSS, JavaScript.
 ## ‣ Video:
 A video illustrating the project can be found on this link.
 
-[![Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Video](https://img.youtube.com/vi/v=N_zM7etQvOw/0.jpg)](https://www.youtube.com/watch?v=v=N_zM7etQvOw)
 
 
 ## ‣ Developer
